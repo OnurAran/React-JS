@@ -2,15 +2,17 @@ import React, { Component } from 'react';
 import { NavDropdown, Nav, Container, Form, FormControl } from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar'
 import Button from 'react-bootstrap/Button'
+import "./navbar_upper.css";
 
 const navbarCompenent_upper = () => {
     return (
         <div>
 
-            <Navbar bg="dark" variant="dark" >
+            <Navbar bg="dark" variant="dark" className="upper" fixed="top">
                 <Container>
-                    <Navbar.Brand href="http://localhost:3000">Yemek.com</Navbar.Brand>
+                <Navbar.Brand href="http://localhost:3000">Yemek.com</Navbar.Brand>
                     <Nav className="me-auto">
+                    
                         <Nav.Link href="#recipes">Yemek Tarifleri</Nav.Link>
                         <Nav.Link href="#fromyou">Sizden Gelenler</Nav.Link>
                         <Nav.Link href="#discover">Keşfet</Nav.Link>
