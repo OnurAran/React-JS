@@ -45,28 +45,25 @@
 }
 .Left{
   padding-left: 5px;
-  padding-top: 15px;
+  padding-top: 60px;
   flex: 1;
 }
 .Main{
-  background-color: indigo;
   flex: 3;
 }
 .Right{
-  background-color: brown;
   flex: 1;
 }
 .ListLeft:hover{
-  
-  font-size: 22px;
-  color:rgb(241, 44, 44);
+  font-size: 24px;
+  color:rgb(30, 104, 104);
+
   transition: 0.6s;
   
 }
 .ListLeft{
   list-style-type: none;
   display: inline-block;
-  border-radius: 10px;
   line-height: 10px;
   margin-left: 10px;
   color: black;
@@ -79,4 +76,10 @@
 }
 .ul{
   list-style-type: none;
+  position: sticky;
+  position: fixed;
+  top:100;
+}
+.display{
+  display: flexbox;
 }

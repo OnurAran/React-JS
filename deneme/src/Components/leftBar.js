@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import LeftLinks from "./leftLinks"
 
@@ -20,8 +20,6 @@ const sideLinks = [
 
 const leftBar = () => {
     return <div className="Left">
-        <h5>YEMEK BİLMEM NE</h5>
-
         <nav>
             <ul className="ul">
                 {sideLinks.map(({ name }) => (
@@ -36,7 +34,3 @@ const leftBar = () => {
 };
 
 export default leftBar;
-
-/*
-<li className="ListLeft">deneme 1</li>
-                <li className="ListLeft">deneme 2</li>*/

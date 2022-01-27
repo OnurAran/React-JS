@@ -12,9 +12,14 @@ class App extends Component {
   render() {
     return (
       <Container>
-        <LeftBar/>
-        <Content/>
-        <RightBar/>
+        <LeftBar />
+        <div className="display">
+          <Content />
+          <Content />
+          <Content />
+          <Content />
+        </div>
+        <RightBar />
 
 
         <Navbar_lower />

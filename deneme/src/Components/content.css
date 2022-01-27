@@ -1,0 +1,57 @@
+.Main{
+    flex-direction: column;
+    border-right: 2px solid lightgrey;
+    border-left: 2px solid lightgrey;
+    padding-top: 55px;
+}
+.textUser{
+    color: black;
+    font-weight: bold;
+    display: none;
+}
+.resim:hover + .textUser{
+    cursor: pointer;
+    display: block;
+    border: 2px solid lightgrey ;
+    border-radius: 15%;
+    
+}
+.resim{
+    border: 2px solid gray;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    
+}
+.inContent{
+    border-top: 2px solid lightgrey;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+.text{
+    margin: auto;
+    color: black;
+    padding-left: 10px;
+    cursor: pointer;
+    
+}
+.contents{
+    padding: 25px;
+    border-bottom: 2px solid lightgrey;
+    display: block;
+    width: 601px; 
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.Altresim{
+    width: 300px;
+    height: 310px;
+    margin-left: 150px;
+    padding-bottom: 10px;
+}
+.compenent{
+    border-bottom: 2px solid lightgrey;
+}

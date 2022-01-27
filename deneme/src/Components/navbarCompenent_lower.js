@@ -6,8 +6,8 @@ import "./navbar_lower.css";
 class navbarCompenent_lower extends Component {
     render() {
         return (
-            <div>
-                <Navbar bg="dark" variant="light" className="lower" fixed = "bottom">
+            <div >
+                <Navbar bg="dark" variant="light" fixed="bottom" className="lower">
                     <Container>
                     <Navbar.Brand >İletişim</Navbar.Brand>
                         <Nav className="me-auto">

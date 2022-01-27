@@ -1,6 +1,5 @@
 .lower{
-    /*position: fixed;
-    top: 1000px;*/
+    visibility: hidden;
     margin-left: 150px;
     margin-right: 150px;
     
