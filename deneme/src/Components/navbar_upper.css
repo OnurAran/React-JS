@@ -1,6 +1,8 @@
 .upper{
     margin-left: 150px;
     margin-right: 150px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .me-auto{
     margin: auto;

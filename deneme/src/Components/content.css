@@ -47,10 +47,11 @@
     text-overflow: ellipsis;
 }
 .Altresim{
-    width: 300px;
+    width: 500px;
     height: 310px;
-    margin-left: 150px;
+    margin-left: 50px;
     padding-bottom: 10px;
+    object-fit: cover;
 }
 .compenent{
     border-bottom: 2px solid lightgrey;
