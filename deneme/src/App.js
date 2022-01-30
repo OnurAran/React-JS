@@ -14,7 +14,7 @@ class App extends Component {
       <Container>
         <LeftBar 
         
-          title = ""
+          lefttitle = "Musakka yemegi"
         
         
         />
