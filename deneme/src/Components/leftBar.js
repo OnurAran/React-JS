@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import LeftLinks from "./leftLinks"
 
+
+
 const sideLinks = [
     {
-        name: "Merhaba",
+        name: "Merhaba!",
+
     },
     {
         name: "Selam",

@@ -12,10 +12,29 @@ class App extends Component {
   render() {
     return (
       <Container>
-        <LeftBar />
+        <LeftBar 
+        
+          title = ""
+        
+        
+        />
         <div className="display">
-          <Content />
-          <Content />
+          <Content 
+          
+          title = "Burasi baslik"
+          date = "30.01.2022"
+          username = "Kullaniciadi"
+          contentoftitle = "Hamur için un, maya, şeker ve ılık suyu hamur toparlanan kadar yoğurun. Daha sonra"
+          
+          />
+          <Content 
+          
+          title = "Yeni baslik"
+          date = "30.01.2022"
+          username = "rn.onurr"
+          contentoftitle = "Gerekli malzemeleri topladıktan sonra, ocağın altını yakıyoruz tencereyi ocağa eklüyürüz"
+
+          />
           <Content />
           <Content />
         </div>
