@@ -53,6 +53,7 @@
 }
 .Right{
   flex: 1;
+  max-width: 220px;
 }
 .ListLeft:hover{
   font-size: 24px;
@@ -82,4 +83,8 @@
 }
 .display{
   display: flexbox;
+}
+.RightApp{
+  display: flexbox;
+  padding-top: 55px;
 }

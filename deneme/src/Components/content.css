@@ -56,6 +56,24 @@
 .compenent{
     border-bottom: 2px solid lightgrey;
 }
+.Right{
+    background: rgba(128, 128, 128, 0.096);
+}
 .sagtaraf{
+    border: 2px solid rgba(0, 0, 0, 0.521);
+    cursor: pointer;
+    padding: 10px;
     color: red;
+    background: rgba(0, 0, 0, 0.178);
+
+    width: 220px; 
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.sagicerik{
+    font-weight: 450;
+    color: black;
+    padding: 10px;
 }
