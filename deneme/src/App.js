@@ -21,7 +21,7 @@ class App extends Component {
         <div className="display">
           <Content
 
-            title="Burasi baslik"
+            title="Pizza"
             date="30.01.2022"
             username="Kullaniciadi"
             contentoftitle="Hamur için un, maya, şeker ve ılık suyu hamur toparlanan kadar yoğurun. Daha sonra"

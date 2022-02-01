@@ -7,17 +7,17 @@ import LeftLinks from "./leftLinks"
 
 const sideLinks = [
     {
-        name: "Merhaba!",
+        name: "Mikrodalga Pizza",
 
     },
     {
-        name: "Selam",
+        name: "Dilim Börek",
     },
     {
-        name: "Nasılsın?",
+        name: "Tavada Kazandibi",
     },
     {
-        name: "İyiyim",
+        name: "Kıymadan Döner",
     },
 ]
 
